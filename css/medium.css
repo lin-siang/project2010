@@ -1,0 +1,407 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#Header {
+	width:100%;
+	background-color:#333;
+	height:90px;
+	position:fixed;
+	z-index:1000;
+}
+#Container,
+#Footer {
+	padding-left:0;
+}
+.contents_inner {
+	width:740px;
+}
+img {
+	width:100%;
+}
+
+
+
+h1 a{
+	padding-top:50px;
+	background-position:center 14px;
+	background-color:#222;
+}
+h1 {
+	margin-bottom:0;
+}
+#Header .line {
+	display:none;
+}
+#G_nav_main {
+	float:left;
+	width:60%;
+	margin-bottom:0;
+}
+#G_nav_main li{
+	width:25%;
+	float:left;
+}
+#G_nav_sub {
+	float:right;
+	width:40%;
+	margin:0;
+	border-top:none;
+	padding-top:0;
+}
+#G_nav_sub li{
+	width:33%;
+	float:left;
+	margin-bottom:0px;
+}
+#G_nav_sub li#G_nav_about{
+	width:34%;
+}
+
+#G_nav_main li a{
+	display:block;
+	padding:10px 0 10px 0;
+	margin:0;
+	height:20px;
+	width:100%;
+	font-size:17px;
+	line-height:20px;
+	text-align:center;
+	background:none;
+	float:left;
+	background-color:#333;
+	background-image:none;
+}
+#about #G_nav_main #G_nav_about a,
+#Creative #G_nav_main #G_nav_portfolio a {
+	background-image:none;
+}
+#G_nav_main li a:hover{
+	background-image:none;
+}
+#News #G_nav_main #G_nav_news a,
+#Media #G_nav_main #G_nav_media a,
+#Event #G_nav_main #G_nav_event a,
+#Creative #G_nav_main #G_nav_creative a {
+	background-image:none;
+}
+#G_nav_sub li a {
+	display:block;
+	padding:11px 0 10px 0;
+	margin:0;
+	height:19px;
+	width:100%;
+	font-size:14px;
+	letter-spacing:2px;
+	line-height:20px;
+	text-align:center;
+	background:none;
+	float:left;
+	color:#D3D3D3;
+	background-color:#333;
+	-webkit-transition: background-color 0.6s ease 0 ,color 0.6s ease 0;
+	-moz-transition: background-color 0.6s ease 0 ,color 0.6s ease 0s;
+	-o-transition: background-color 0.6s ease 0 ,color 0.6s ease 0;
+	transition: background-color 0.6s ease 0 ,color 0.6s ease 0 ;
+}
+#G_nav_main li a:hover{
+	background:#FFF;
+	color:#333;
+	font-weight:400;
+}
+#G_nav_sub li a:hover,
+#about #G_nav_sub #G_nav_about a,
+#Recruit #G_nav_sub #G_nav_recruit a,
+#Contact #G_nav_sub #G_nav_contact a {
+	background-color:#FFF;
+	color:#777;
+}
+
+
+/*コンテナ*/
+#Contents_header {
+	width:740px;
+	padding-top:140px;
+	height:135px;
+}
+
+.slide_btn_right img,
+.slide_btn_left img{
+	width:auto;
+}
+
+
+
+#Footer_inner {
+	width:740px;
+}
+
+
+
+
+
+
+#Home #Container {
+	padding-top:90px;
+}
+#Main #Main_object {
+	height:auto;
+}
+#Main #Main_object li {
+	height: 373px;
+}
+#Main_object li .txt_box{
+	display:block;
+	float:right;
+	width:320px;
+	margin-right:30px;
+	text-align:left;
+}
+#Main_object li span.title{
+	display:block;
+	font-size:18px;
+	margin:60px 0 20px;
+}
+#Main_object li span.txt{
+	font-size:12px;
+}
+#Main #Main_object li p{
+	width:630px;
+	height: 269px;
+	padding:3% 0;
+}
+#Main #Main_object li p img{
+	width:260px;
+}
+#Top_slide_btn {
+	width:740px;
+}
+#Top_slide_btn .slide_btn_left,
+#Top_slide_btn .slide_btn_right {
+	top:-226px;
+}
+.top_news_box {
+	width:102%;
+}
+.top_news_box li{
+	width:31.3%;
+	margin:0 2% 0 0;
+}
+
+#Media_top ul {
+	width:102%;
+}
+#Media_top ul li{
+	width:31.3%;
+	margin:0 2% 0 0;
+}
+#Media_top ul li img{
+	width:auto;
+}
+
+#Marche_top .img img,
+#Artdive_top .img img {
+	width:auto;
+}
+#Marche_top .logo img,
+#Artdive_top .logo img {
+	width:auto;
+}
+
+#Creative_top .Slide ul li a img {
+	width:auto;
+}
+
+
+
+
+#News_latest .contents_inner .latest_txt {
+width: 410px;
+}
+#News_box {
+	margin-left:-5px;
+	width:760px;
+}
+#News_box.list li a {
+	width: 690px;
+}
+#News_box li{
+	letter-spacing:0;
+}
+#News_box.block .box_size01 a {
+	width: 160px;
+}
+#News_box.block .box_size02 a {
+	width: 350px;
+}
+#News_box.block li .icon {
+	position: absolute;
+	top: 129px;
+	left: 10px;
+}
+
+.detail_img img{
+	width:auto;
+}
+.others_news {
+	width:650px;
+}
+.others_news .btn{
+	padding-right:5px;
+}
+
+#News.news_detail #Detail_box img.alignleft,
+#News.news_detail #Detail_box img.alignright{
+	float:none;
+	margin:0 auto 20px auto;
+	display:block;
+}
+#News.news_detail #Detail_box .notice img{
+	height:auto;
+	width:inherit;
+}
+
+
+
+
+#Event #Marche .title_box,
+#Event #Artdive .title_box {
+	background-size:contain;
+	padding-top:23%;
+}
+#Event .event_box .date_img {
+	width:auto;
+}
+#Event .event_box .next_bunner dt,
+#Event .event_box .next_bunner dd{
+	font-size:12px;
+	letter-spacing:-1px;
+}
+#Event .event_box .next_bunner dt {
+	width:60px;
+}
+
+
+
+
+#Creative .creative_block li {
+	width:236px;
+	height:236px;
+	margin:0 15px 15px 0;
+}
+#Creative .creative_block .comment {
+	width:236px;
+	height:236px;
+}
+#Creative .creative_detail .creative_img ul li img {
+	width:80%;
+}
+#Creative .creative_detail .contents_inner .slides {
+	height:400px;
+}
+
+
+
+
+#Recruit {
+background:none;
+}
+#Recruit_outline {
+	border-top:2px solid #EEE;
+	padding:35px 0;
+}
+#Recruit .form_box {
+	width:47%;
+}
+#Recruit .form_box dd input,
+#Recruit .form_box dd textarea {
+	width: 90%;
+}
+#Recruit .form_box dd input#Address_num_1 {
+	width:30%;
+}
+#Recruit .form_box dd input#Address_num_2 {
+	width:34%;
+}
+#Recruit .form_box dd input#Num_1,
+#Recruit .form_box dd input#Num_2,
+#Recruit .form_box dd input#Num_3 {
+	width:23%;
+}
+#Recruit .form_box dd #Year,
+#Recruit .form_box dd #Month,
+#Recruit .form_box dd #Day {
+	width:14%;
+}
+#Recruit .form_box dd input#Gender_1,
+#Recruit .form_box dd #Gender_2 {
+	width:auto;
+}
+#Recruit .form_box dd input#Type_1,
+#Recruit .form_box dd input#Type_2,
+#Recruit .form_box dd input#Type2_1,
+#Recruit .form_box dd input#Type2_2 {
+	width:auto;
+}
+#Recruit #Skill{
+	width:auto;
+	line-height:125%;}
+#Recruit #EducationYear {
+	width:50px !important;
+	margin-top:5px;
+}
+#Recruit .wpcf7-list-item-label{
+	display:block;
+	margin-top:-10px;
+}
+#Recruit .wpcf7-checkbox .wpcf7-list-item-label{
+	padding-top:0px;}
+#Recruit #Recruit_outline_wrap {
+margin-bottom: 0px;
+}
+#RecruitLead {
+margin-bottom:0px;
+}
+#Parallax_spacer{
+	display: none;
+}
+.form_box.enq dd{
+	width:300px;
+	}
+
+
+
+
+#about #Btn li{
+	margin-left: 12px;
+}
+#Staff .staff_box li {
+	margin: 0 2% 3% 0;
+	width:31.3%;
+}
+#Staff .staff_box li .name span {
+	font-size:10px;
+}
+#Staff .staff_box {
+	width:102%;
+}
+#Staff .staff_faq li .current_01 {
+position: absolute;
+top: -16px;
+left: 111px;
+}
+#Staff .staff_faq li .current_02 {
+position: absolute;
+top: -16px;
+left: 363px;
+}
+#Staff .staff_faq li .current_03 {
+position: absolute;
+top: -16px;
+right:111px;
+}
+
+.access_box .img{
+	width:50%;
+}

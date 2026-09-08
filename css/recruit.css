@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/* CSS Document */
+#Parallax_spacer{
+	clear: both;
+	widows: 100%;
+	height: 250px;
+	background:url(../images/recruit/main_img_bg2.jpg) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#Recruit_outline_wrap {
+	/*margin-bottom:250px;*/
+}
+html.ie8 #RecruitLead,
+html.ie8 #Recruit_outline_wrap {
+	margin-bottom:0;/* IE8 */
+}
+#Recruit #Container{
+	background: url(../images/recruit/main_img_bg.jpg) no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+#Recruit strong {
+	font-family:"FOT-筑紫A丸ゴシック Std D" , 'TsukuARdGothicStd-D' ,sans-serif;
+}
+#RecruitLead {
+	margin-bottom:250px;
+	padding-bottom:20px;
+}
+#RecruitLead p.copy {
+	font-size:19px;
+	letter-spacing:0.2em;
+	padding-bottom:25px;
+	font-family:"FOT-筑紫A丸ゴシック Std D" , 'TsukuARdGothicStd-D' ,sans-serif;
+}
+#RecruitLead p {
+	font-size:15px;
+	letter-spacing:1px;
+	line-height:1.7em;
+	padding-bottom:15px;
+}
+#Recruit_outline {
+	padding:55px 0;
+}
+#Recruit_form {
+	padding-top:55px;
+}
+input[type="text"] {
+	color: #ccc;
+}
+input.textFocus{
+	color:#333;
+}
+.form_box dd input,
+.form_box dd textarea{
+	width:280px;
+}
+#Address_num_1 {
+	width:60px;
+}
+#Address_num_2 {
+	width:80px;
+}
+#Num_1,
+#Num_2,
+#Num_3 {
+	width:73px;
+}
+#Year,
+#Month,
+#Day {
+	width:50px;
+}
+#Gender input{
+	width:auto;
+}
+:root *> #Gender input{
+	display:none;
+}
+#Mail,
+#Mail_2{
+	height:20px;
+}
+#Where input,
+#Type input,
+#Type2 input,
+#Skill input{
+	width:auto;
+}
+.easy-select-0{
+	width:140px !important;
+	text-align:left;
+}
+:root *> #Where input,
+:root *> #Type input,
+:root *> #Type2 input,
+:root *> #Skill input{
+	display:none;
+}
+#EducationYear {
+	width:50px;
+	margin-top:5px;
+}
+#Skill{
+	display:block;
+	width:300px;
+	line-height:170%;
+}
+:root *> .wpcf7-list-item-label {
+	background:url(../images/recruit/radio_btn_bg.png) no-repeat;
+	padding:3px 0 3px 25px;
+	cursor:pointer;
+}
+:root *> input:checked+.wpcf7-list-item-label {
+	background:url(../images/recruit/radio_btn_bg_on.png) no-repeat !important;
+}
+
+.form_box .more_mb {
+	margin-bottom:40px;
+}
+.form_box.enq dt{
+	margin-bottom:20px;
+	}
+.form_box.enq dd .note{
+	padding:10px
+	}
+.form_block {
+	padding-bottom:20px;
+	border-bottom:1px solid #DDD9CE;
+	margin-bottom:20px;
+}
+
+
+.easy-select-box{
+	display:inline-block;
+	position:relative;
+	background:url(../images/recruit/select_btn_bg.png) no-repeat right #FFF;
+	background-position:auto 100%;
+	border:2px solid #CAC8C3;
+	color:#333;
+	width:100%;
+	padding:7px 0;
+	text-align:center;
+	letter-spacing:0.1em;
+	font-size:13px;
+	margin-right:5px;
+	cursor:pointer;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	line-height:13px;
+}
+.easy-select-box .esb-dropdown{
+	position:absolute;
+	top:100%;
+	left:0;
+	z-index:99;
+	display:none;
+	background-color:#FFF;
+	text-align:center;
+	width:100%;
+	padding:7px 0;
+	border-top:2px solid #CAC8C3;
+	border-bottom:1px solid #CAC8C3;
+	border-right:1px solid #CAC8C3;
+	border-left:1px solid #CAC8C3;
+}
+.esb-item:first-child {
+	display:none;
+}
+.esb-item {
+	padding:7px 0;
+	cursor:pointer;
+	color:#333;
+	font-size:13px;
+	-webkit-transition: all 0.2s ease 0;
+	-moz-transition: all 0.2s ease 0s;
+	-o-transition: all 0.2s ease 0;
+	transition: all 0.2s ease 0;
+}
+.esb-item:hover{
+	background-color:#B0ADA4;
+	color:#FFF;
+}
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 10px;
+	text-align:center;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #b0ada4;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px solid #ff002b;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ff002b;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #ff002b;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #ff002b;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}

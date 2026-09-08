@@ -1,0 +1,411 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*===News_index===*/
+.contents_fin_beige{
+	padding-bottom: 90px;
+}
+
+#News strong {
+	font-family:"FOT-筑紫A丸ゴシック Std B" , 'TsukuARdGothicStd-B',"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#News_latest {
+	margin:20px 0;
+}
+#News_latest .contents_inner:first-child {
+	border: none;
+	padding-top: 0;
+}
+#News_latest .contents_inner {
+	margin: 0 auto;
+	border-top: 1px solid #CCC;
+	padding: 20px 0;
+}
+#News_latest .contents_inner .latest_images {
+	float:left;
+}
+#News_latest .contents_inner .latest_images img{
+	width:300px;
+}
+#News_latest .contents_inner .latest_txt {
+	float:left;
+	width:460px;
+	padding-left:30px;
+}
+#News_latest .contents_inner .latest_txt .date{
+	font-family:"FOT-筑紫A丸ゴシック Std M" , 'TsukuARdGothicStd-M' sans-serif;
+	letter-spacing:1px;
+}
+#News_latest .contents_inner .latest_txt .title {
+	padding:10px 0 15px;
+	font-size:18px;
+	color:#333;
+	font-family:"FOT-筑紫A丸ゴシック Std D" , 'TsukuARdGothicStd-D' sans-serif;
+	line-height:1.5em;
+}
+#News_latest .contents_inner .latest_txt .txt {
+	font-size:14px;
+	color:#333;
+	padding-bottom:10px;
+	line-height:1.5em;
+}
+#News_latest .contents_inner .latest_txt .btn a {
+	display: inline-block;
+}
+#Sort a{
+	color:#FFF !important;
+}
+#Sort .sort_notice a{
+	background-color:#60808C;
+}
+#Sort .sort_creative a{
+	background-color:#C19610;
+}
+#Sort .sort_event a{
+	background-color:#AD615F;
+}
+#Sort .sort_media a{
+	background-color:#94A652;
+}
+#Sort .sort_all a{
+	background-color:#B0ADA4;
+}
+#Sort .sort_notice a:hover {
+	background-color:#799EAA;
+}
+#Sort .sort_creative a:hover {
+	background-color:#D5B400;
+}
+#Sort .sort_event a:hover {
+	background-color:#C77D79;
+}
+#Sort .sort_media a:hover {
+	background-color:#B0C066;
+}
+#Sort .sort_all a:hover {
+	background-color:#BBB;
+}
+
+/*swich btn*/
+.switch {
+	width:54px;
+	float:right;
+	margin:10px 0;
+}
+.switch li {
+	width:27px;
+	height:0;
+	padding-top:27px;
+	overflow:hidden;
+	background:url(../images/news/switch.png) no-repeat;
+	float:left;
+	cursor:pointer;
+}
+.switch li.switch_block {
+	background-position:0 0;
+}
+.switch li.switch_block.active,
+.switch li.switch_block:hover {
+	background-position:0 -27px;
+}
+.switch li.switch_list {
+	background-position:-27px 0;
+}
+.switch li.switch_list.active,
+.switch li.switch_list:hover {
+	background-position:-27px -27px;
+}
+
+
+/*news box*/
+#News_box {
+	position: relative;
+	top:47px;
+	width:800px;
+}
+#News_box li{
+	opacity: 0;
+}
+#News_box li a{
+	position:relative;
+}
+#News_box li a .icon {
+	background:url(../images/news/icon.png) no-repeat;
+	width:73px;
+	height:0;
+	padding-top:16px;
+	overflow:hidden;
+	line-height:1.8em;
+}
+#News_box li.media_box .icon {
+	background-position:0 0;
+}
+#News_box li.creative_box .icon {
+	background-position:-146px 0;
+}
+#News_box li.event_box .icon {
+	background-position:-73px 0;
+}
+#News_box li.notice_box .icon {
+	background-position:-219px 0;
+}
+#News_box li .date {
+	font-size:12px;
+	color:#333;
+	font-weight:600;
+	font-family:"FOT-筑紫A丸ゴシック Std M" , 'TsukuARdGothicStd-M' ,sans-serif;
+}
+#News_box li .news_comment {
+	font-size:12px;
+	color:#333;
+	line-height:1.4em;
+	padding-top:5px;
+	font-family:"FOT-筑紫A丸ゴシック Std M" , 'TsukuARdGothicStd-M' ,sans-serif;
+}
+/*news box -block*/
+#News_box.block li a{
+	display:block;
+	padding:10px;
+	-webkit-transition: background-color 0.6s ease 0;
+	-moz-transition: background-color 0.6s ease 0s;
+	-o-transition: background-color 0.6s ease 0;
+	transition: background-color 0.6s ease 0;
+}
+#News_box.block li a:hover{
+	background-color:#B3B0A7;
+}
+#News_box.block li a span{
+	display:block;
+	font-weight:600;
+	letter-spacing:0.1em
+}
+#News_box.block .box_size01 a{
+	width:170px;
+	height:225px;
+	background-color:#FFF;
+	float:left;
+	margin:0 10px 10px 0;
+}
+#News_box.block .box_size02 a{
+	width:370px;
+	height:225px;
+	background-color:#FFF;
+	float:left;
+	margin:0 10px 10px 0;
+}
+#News_box.block li .news_img {
+	text-align:center;
+	line-height:0;
+}
+#News_box.block li .icon{
+	position:absolute;
+	top:136px;
+	left:10px;
+}
+/*#News_box.block li.media_box a:hover .icon {
+	background-position:0 -16px;
+}
+#News_box.block li.creative_box a:hover .icon {
+	background-position:-146px -16px;
+}
+#News_box.block li.event_box a:hover .icon {
+	background-position:-73px -16px;
+}
+#News_box.block li.notice_box a:hover .icon {
+	background-position:-219px -16px;
+}*/
+#News_box.block li .date {
+	font-size:12px;
+	text-align:right;
+	margin:5px 0;
+}
+#News_box.block li span{
+	color:#333;
+	-webkit-transition: color 0.6s ease 0;
+	-moz-transition: color 0.6s ease 0s;
+	-o-transition: color 0.6s ease 0;
+	transition: color 0.6s ease 0;
+}
+#News_box.block li a:hover span{
+	color:#FFF;
+}
+/*news box -list*/
+#News_box.list li a{
+	display:block;
+	padding:20px 30px;
+	background-color:#FFF;
+	border-bottom:1px solid #F3F0EA;
+	width:730px;
+}
+#News_box.list li .news_img {
+	display:none;
+}
+#News_box.list li a span{
+	display:block;
+}
+#News_box.list li .icon{
+	position:absolute;
+	top:25px;
+	left:126px;
+}
+#News_box.list li .date {
+	font-size:12px;
+	letter-spacing:1px;
+	float:left;
+}
+#News_box.list li .news_comment {
+	padding-left:188px;
+	font-size:13px;
+}
+#News_box.list li a:hover .news_comment {
+	text-decoration:underline;
+}
+.invisible{
+	/*visibility: hidden !important;*/
+	display: none !important;
+}
+
+
+/*===detail.html===*/
+#Detail_box .detail_img {
+	text-align:center;
+	margin:0px 0 45px 0;
+}
+#Detail_box .detail_txt {
+	padding:0 0 50px;
+	font-size:15px;
+	line-height:1.6em;
+}
+#Detail_box .detail_txt img{
+	border:1px solid #CCC;
+	height:auto;
+}
+#Detail_box a:hover {
+	text-decoration:underline;
+}
+.Slide{
+	width: 10000px;/*仮で幅を指定*/
+}
+.Slide #News_box li{
+	float: left;
+}
+#News.news_detail #News_box {
+	top: 0; /*一覧ページでの設定値をリセット*/
+	width:auto;/*仮で幅を指定*/
+	padding:17px 0;
+	overflow:hidden;
+}
+#News.news_detail #News_box.block .box_size01 a,
+#News.news_detail #News_box.block .box_size02 a {
+	margin-bottom:0;
+}
+.others_news {
+	padding-top:17px;
+}
+.others_news h4 {
+	font-size:15px;
+	color:#7F7E77;
+	float:left;
+}
+.others_news .btn {
+	float:right;
+}
+#News.news_detail h3 {
+	padding:15px 0;
+	margin-bottom:45px;
+	font-family:"FOT-筑紫A丸ゴシック Std M" , 'TsukuARdGothicStd-M' ,sans-serif;
+}
+#News.news_detail h3 .date {
+	font-size:15px;
+	padding:0 15px 0 5px;
+	letter-spacing:1px;
+	height:100%;
+	float:right;
+}
+#News.news_detail h3 .title{
+	font-size:19px;
+	line-height:1.8em;
+	margin-top:7px;
+	display:block;
+}
+#News.news_detail h3 .icon,
+#News.news_detail h4 .icon {
+	padding:3px 14px;
+	font-size:12px;
+	line-height:12px;
+	letter-spacing:1px;
+	background-color:#FFF;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-right:10px;
+	font-family:"FOT-筑紫A丸ゴシック Std D" , 'TsukuARdGothicStd-D' ,sans-serif;
+}
+#News.notice h3 .icon,
+#News.notice h4 .icon{
+	color:#60808C;
+}
+#News.creative h3 .icon,
+#News.creative h4 .icon{
+	color:#C19610;
+}
+#News.event h3 .icon,
+#News.event h4 .icon{
+	color:#AD615F;
+}
+#News.media h3 .icon,
+#News.media h4 .icon{
+	color:#94A652;
+}
+/*WP記事スタイル*/
+#News .alignleft{
+	float:left;
+	margin:0px 20px 10px 0;
+}
+#News .alignright{
+	float:right;
+	margin:0px 0px 10px 20px;
+}
+#News .aligncenter{
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#News .detail_txt hr{
+	height:1px;
+	border:1px dotted #CCC;
+}
+#News .detail_txt .notice{
+	padding:20px;
+	background:#f8f8f8;
+	margin-top:20px;
+}
+.notice:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.notice {
+  min-height: 1px;
+}
+
+* html .notice {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+.table_2{
+	width:80%;}
+.table_2 td,
+.table_2 th{
+	border-top:#CCC 1px dotted;
+	padding:10px;}
+.table_2 .noborder{
+    border:none;
+}

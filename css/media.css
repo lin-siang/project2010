@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#MediaLead p {
+	font-size:15px;
+	letter-spacing:1px;
+	line-height:1.7em;
+}
+
+#Media .title_box {
+	height:200px;
+	color:#FFF;
+	font-size:25px;
+	letter-spacing:0.2em;
+	line-height:1.7em;
+}
+#Media #CB,
+#Media #Compedia,
+#Media #Meets{
+	padding-top:55px;}
+#Media #CB .title_box {
+	background-color:#758D29;
+	margin-top:0px;
+}
+#Media #Compedia,
+#Media #Meets{
+	margin-top:70px;}
+#Media #Compedia .title_box {
+	background-color:#FFD01B;
+}
+#Media #Meets .title_box {
+	background-color:#49311C;
+}
+
+#Media .title_box .contents_inner {
+	position:relative;
+	padding-top:74px;
+}
+#Media .title_box .contents_inner .site_icon{
+	position:absolute;
+	top:-30px;
+	left:0;
+}
+#Media .title_box .contents_inner .site_images {
+	position:absolute;
+	top:120px;
+	right:0;
+}
+
+.site_box {
+	padding:111px 0 45px;
+	position:relative;
+}
+.site_box .site_logo{
+	position:absolute;
+	top:45px;
+	left:0;
+}
+.site_box .site_txt{
+	font-size:15px;
+	letter-spacing:1px;
+	line-height:1.7em;
+}
+.site_box .site_btn {
+	text-align:center;
+	margin:30px 0 20px;
+}
+.site_box .site_btn a{
+	display:block;
+	font-size:17px;
+	letter-spacing:0.2em;
+	padding:8px 0;
+	color:#FFF;
+	-webkit-transition: background-color 0.6s ease 0 ;
+	-moz-transition: background-color 0.6s ease 0s ;
+	-o-transition: background-color 0.6s ease 0 ;
+	transition: background-color 0.6s ease 0 ;
+}
+.site_box.cb .site_btn a{
+	background-color:#758D29;
+}
+.site_box.cb .site_btn a:hover{
+	background-color:#829E2A;
+}
+.site_box.compedia .site_btn a{
+	background-color:#FFD01B;
+}
+.site_box.compedia .site_btn a:hover{
+	background-color:#FFD949;
+}
+.site_box.meets .site_btn a{
+	background-color:#49311C;
+}
+.site_box.meets .site_btn a:hover{
+	background-color:#5D4835;
+}
+
+.site_box .site_btn a .en{
+	font-size:20px;
+	letter-spacing:0.3em;
+	font-weight:300;
+}
+.site_box .site_btn a .icon{
+	background: url(../images/media/site_btn.png) no-repeat 30px center;
+	display:block;
+}
+
+.site_box .contact_btn {
+	text-align:center;
+	margin:0 0 20px;
+}
+.site_box .contact_btn a{
+	display:block;
+	font-size:16px;
+	letter-spacing:0.2em;
+	padding:8px 0;
+	color:#FFF;
+	background-color:#4A4A4A;
+	-webkit-transition: background-color 0.6s ease 0 ;
+	-moz-transition: background-color 0.6s ease 0s ;
+	-o-transition: background-color 0.6s ease 0 ;
+	transition: background-color 0.6s ease 0 ;
+}
+.site_box .contact_btn a:hover{
+	background-color:#666;
+}
+.site_box .contact_btn a .icon{
+	background:url(../images/media/contact_btn.png) no-repeat 30px center;
+	display:block;
+}

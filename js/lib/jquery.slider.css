@@ -1,0 +1,13 @@
+.jquery-slider {
+    overflow: hidden;
+    position: relative;
+}
+.jquery-slider-element {
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
